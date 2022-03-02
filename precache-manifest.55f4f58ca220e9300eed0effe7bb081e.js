@@ -1,5 +1,9 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
+    "revision": "224733964c757bd2ebb48e9a300b6b33",
+    "url": "book.jpg"
+  },
+  {
     "revision": "9ef29d165ebf0af89dc6",
     "url": "css/admin.c40cd8d4.css"
   },
@@ -12,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/admin~dashboard~login~product~register.c9f5a90d.css"
   },
   {
-    "revision": "19b73508d1c17a005c3f",
+    "revision": "aa95ef5e0111d617295d",
     "url": "css/app.8988055f.css"
   },
   {
@@ -20,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/book.f2b6f75f.css"
   },
   {
-    "revision": "fdc33537abc4b554a6ea",
+    "revision": "6960e4be49b3cf3ebd93",
     "url": "css/chunk-vendors.a2d6f721.css"
   },
   {
@@ -184,6 +188,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/logo.db77dfb1.png"
   },
   {
+    "revision": "db77dfb17ddf3f73941475dfdbe10b75",
+    "url": "img/logo.png"
+  },
+  {
     "revision": "ee5a623c93df432c0a5a68c192a57ca8",
     "url": "img/meihua-beijing.ee5a623c.png"
   },
@@ -304,7 +312,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/zitie.511de237.png"
   },
   {
-    "revision": "975252766a70bd3ea1069574e1c0fc70",
+    "revision": "22c03ada65026de6506c372767646bfc",
     "url": "index.html"
   },
   {
@@ -320,16 +328,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/admin~dashboard~login~product~register.d71b6357.js"
   },
   {
-    "revision": "19b73508d1c17a005c3f",
-    "url": "js/app.d6e04fd6.js"
+    "revision": "aa95ef5e0111d617295d",
+    "url": "js/app.a7ab8103.js"
   },
   {
     "revision": "d7c647816761ed1e527a",
     "url": "js/book.679b0075.js"
   },
   {
-    "revision": "fdc33537abc4b554a6ea",
-    "url": "js/chunk-vendors.b9b61ef2.js"
+    "revision": "6960e4be49b3cf3ebd93",
+    "url": "js/chunk-vendors.bd418453.js"
   },
   {
     "revision": "e7def74dd93674121123",
@@ -416,7 +424,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/zixutie.9ffdaf4d.js"
   },
   {
-    "revision": "7c31b36c85cc99d985488bcca929d70f",
+    "revision": "a4ab95088f48d71cbd8b471fc8e10d2e",
     "url": "manifest.json"
   },
   {
