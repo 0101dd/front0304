@@ -13,8 +13,8 @@ module.exports = {
     manifestOptions: {
       name: '書彙齋',
       short_name: '書彙齋',
-      theme_color: '#1D2025',
-      background_color: '#1D2025',
+      themeColor: '#1D2025',
+      backgroundColor: '#1D2025',
       scope: './',
       start_url: './',
       display: 'standalone',
