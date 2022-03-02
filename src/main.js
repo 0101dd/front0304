@@ -14,6 +14,11 @@ import 'sweetalert2/dist/sweetalert2.min.css'
 import ImgInputer from 'vue-img-inputer'
 import 'vue-img-inputer/dist/index.css'
 import mixin from './mixin.js'
+import VueGtag from 'vue-gtag'
+
+Vue.use(VueGtag, {
+  config: { id: 'G-LGXS619VPP' }
+})
 
 Vue.use(VueKinesis)
 Vue.use(VuePageTransition)
