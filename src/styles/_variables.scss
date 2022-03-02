@@ -1,0 +1,18 @@
+:root {
+  --primary: #202938;
+  --secondary: #1D2025;
+  --warning: #45312A;
+  --accent: #DED7B9;
+  --info: #D58E40;
+  --error: #7e2f28;
+}
+
+$breakpoint-xs: 500px;
+$breakpoint-sm: 960px;
+$breakpoint-md: 1264px;
+$breakpoint-lg: 1700px;
+
+// page-transition setting
+.overlay-left,  .overlay-right,  .overlay-top,  .overlay-bottom   {
+  background: var(--secondary) !important;
+}

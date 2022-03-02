@@ -1,0 +1,66 @@
+<template>
+  <v-app id="inspire">
+    <div id="router-link"></div>
+    <v-navigation-drawer v-model="drawer" app color="secondary">
+      <v-list rounded class="text-center mt-16" style="color: var(--info);" flat>
+        <v-list-item router-link to="/dashboard/users" :ripple="false">
+            <v-list-item-title class="pro">會員主頁</v-list-item-title>
+        </v-list-item>
+        <v-list-item router-link to="/dashboard/cart" :ripple="false">
+            <v-list-item-title>購物清單</v-list-item-title>
+        </v-list-item>
+        <v-list-item router-link to="/dashboard/order" :ripple="false">
+            <v-list-item-title>訂單查詢</v-list-item-title>
+        </v-list-item>
+        <v-list-item router-link to="/dashboard/userWorks" :ripple="false">
+            <v-list-item-title>作品管理</v-list-item-title>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
+
+    <v-main>
+      <vue-page-transition>
+        <router-view></router-view>
+      </vue-page-transition>
+    </v-main>
+  </v-app>
+</template>
+
+<script>
+export default {
+  data () {
+    return {
+      drawer: null
+    }
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+.pro {
+  margin-top: 50px;
+}
+.v-list-item__title {
+  background-color: var(--accent);
+  padding: 10px 0;
+  border-radius: 20px;
+  font-weight: bolder;
+}
+.v-toolbar__content {
+  display: none;
+}
+
+.v-navigation-drawer {
+  top: 64px !important;
+}
+
+.v-navigation-drawer__content {
+  height: 80vw;
+}
+
+.v-main {
+  padding: 0px !important;
+  background: var(--accent);
+}
+
+</style>
