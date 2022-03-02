@@ -424,7 +424,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/zixutie.9ffdaf4d.js"
   },
   {
-    "revision": "a4ab95088f48d71cbd8b471fc8e10d2e",
+    "revision": "222051be733a73dcf1fe4b71f2ab7a51",
     "url": "manifest.json"
   },
   {
