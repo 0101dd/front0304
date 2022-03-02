@@ -15,6 +15,7 @@ import ImgInputer from 'vue-img-inputer'
 import 'vue-img-inputer/dist/index.css'
 import mixin from './mixin.js'
 import VueGtag from 'vue-gtag'
+import './assets/font/font.scss'
 
 Vue.use(VueGtag, {
   config: { id: 'G-LGXS619VPP' }
