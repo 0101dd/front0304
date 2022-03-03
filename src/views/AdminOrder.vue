@@ -8,19 +8,19 @@
   <div class="container">
     <v-data-table
       :headers="headers"
-      :items="adminOrders"
-      :items-per-page="7"
+      :items="orders"
+      :items-per-page="5"
       :loading="loadTable"
       loading-text="加載中......."
       ref="table"
       class="elevation-3"
     >
-     <template v-slot:item.date="{ item }">
+    <template v-slot:item.date="{ item }">
       {{ new Date(item.date).toLocaleString('zh-tw') }}
     </template>
     <template v-slot:item.products.product="{ item }">
       <ul>
-        <li class="product" v-for="i in item.products[0]" :key="'product' + i">
+        <li class="order-name" v-for="i in item.products[0]" :key="'order-name' + i">
         {{ i.name }}
         </li>
       </ul>
@@ -42,7 +42,7 @@ export default {
   data () {
     return {
       loadTable: true,
-      adminOrders: [],
+      orders: [],
       headers: [
         { text: '日期', align: 'center', value: 'date', class: 'primary white--text subtitle-1' },
         { text: '單號', align: 'center', value: 'products.0._id', class: 'primary white--text subtitle-1' },
@@ -59,8 +59,9 @@ export default {
           authorization: 'Bearer ' + this.user.token
         }
       })
-      this.adminOrders = data.result
+      this.orders = data.result
       this.loadTable = false
+      // console.log('1' + JSON.stringify(this.orders))
       // console.log(this.orders)
     } catch (error) {
       if (error.response) {
