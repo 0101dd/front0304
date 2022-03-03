@@ -8,7 +8,7 @@
   <div class="container">
     <v-data-table
       :headers="headers"
-      :items="orders"
+      :items="adminOrders"
       :items-per-page="7"
       :loading="loadTable"
       loading-text="加載中......."
@@ -20,7 +20,7 @@
     </template>
     <template v-slot:item.products.product="{ item }">
       <ul>
-        <li v-for="i in item.products[0]" :key="i">
+        <li class="product" v-for="i in item.products[0]" :key="'product' + i">
         {{ i.name }}
         </li>
       </ul>
@@ -42,7 +42,7 @@ export default {
   data () {
     return {
       loadTable: true,
-      orders: [],
+      adminOrders: [],
       headers: [
         { text: '日期', align: 'center', value: 'date', class: 'primary white--text subtitle-1' },
         { text: '單號', align: 'center', value: 'products.0._id', class: 'primary white--text subtitle-1' },
@@ -59,7 +59,7 @@ export default {
           authorization: 'Bearer ' + this.user.token
         }
       })
-      this.orders = data.result
+      this.adminOrders = data.result
       this.loadTable = false
       // console.log(this.orders)
     } catch (error) {
