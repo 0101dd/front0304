@@ -9,7 +9,7 @@
     <v-data-table
       :headers="headers"
       :items="orders"
-      :items-per-page="5"
+      :items-per-page="7"
       :loading="loadTable"
       loading-text="加載中......."
       ref="table"
