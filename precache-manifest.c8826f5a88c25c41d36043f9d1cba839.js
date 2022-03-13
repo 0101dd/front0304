@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/admin~dashboard~login~product~register.c9f5a90d.css"
   },
   {
-    "revision": "84fe55ea9fc093f3068a",
-    "url": "css/app.60f98a08.css"
+    "revision": "d74ea131850ac7929c72",
+    "url": "css/app.77fcb671.css"
   },
   {
     "revision": "8ea4418e952c68b59574",
@@ -332,7 +332,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/zitie.511de237.png"
   },
   {
-    "revision": "eee8859997bc6be012111fb5006587cd",
+    "revision": "717fc961841fbe051ce1ed6d54b5c863",
     "url": "index.html"
   },
   {
@@ -348,7 +348,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/admin~dashboard~login~product~register.d71b6357.js"
   },
   {
-    "revision": "84fe55ea9fc093f3068a",
+    "revision": "d74ea131850ac7929c72",
     "url": "js/app.dce02b51.js"
   },
   {
