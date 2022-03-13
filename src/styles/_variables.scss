@@ -10,9 +10,13 @@
 $breakpoint-xs: 500px;
 $breakpoint-sm: 960px;
 $breakpoint-md: 1264px;
+$breakpoint-laptop: 1440px;
 $breakpoint-lg: 1700px;
 
 // page-transition setting
-.overlay-left,  .overlay-right,  .overlay-top,  .overlay-bottom   {
+.overlay-left,
+.overlay-right,
+.overlay-top,
+.overlay-bottom {
   background: var(--secondary) !important;
 }

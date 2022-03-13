@@ -1,5 +1,5 @@
 @mixin lg {
-  @media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+  @media (min-width: $breakpoint-laptop) and (max-width: $breakpoint-lg) {
     @content;
   }
 }

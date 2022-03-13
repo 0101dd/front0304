@@ -1,0 +1,48 @@
+@mixin laptop {
+  @media (min-width: $breakpoint-md) and (max-width: $breakpoint-laptop) {
+    @content;
+  }
+}
+
+@include laptop {
+  .menu-right-space {
+    width: 200px !important;
+  }
+  .menu-left-space {
+    width: 300px !important;
+  }
+
+  // [home] -----------------------------------
+  #home {
+    #target {
+      line-height: 1.7;
+    }
+    .information {
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-left: 150px;
+    }
+  // [home] box hover --------------------------
+    .box1:hover {
+      transform: translate(-40px, -10px);
+    }
+    .box2:hover {
+      transform: translate(-90px, -10px);
+    }
+    .box3:hover {
+      transform: translate(-140px, -10px);
+    }
+  }
+  // [book]... ---------------------------
+   #book {
+    .container {
+      height: 100%;
+      margin-top: 5%;
+      margin-bottom: 100px;
+      .col {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
